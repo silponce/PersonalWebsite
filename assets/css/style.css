@@ -1,0 +1,20 @@
+:root{
+    --pink: pink;
+    --celeste: #b2ffff;
+    --morado: blue; 
+}
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1;
+    background-color: var(--celeste);
+    color: var(--morado)
+}
