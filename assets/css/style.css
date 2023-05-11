@@ -1,7 +1,8 @@
 :root{
     --pink: pink;
     --celeste: #b2ffff;
-    --morado: blue; 
+    --morado: lavender;
+    --azul: #89CFF
 }
 body {
     display: flex;
@@ -15,6 +16,56 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1;
-    background-color: var(--celeste);
-    color: var(--morado)
+    background-color: blueviolet;
+    color: pink;
+    font-style: "Aclonica"; font-size:28px;
 }
+
+main {
+    background-color:var(--celeste);
+    color: black;
+    font-style: "Aclonica"; font-size:15px;
+}
+/*zoom in animations-- Reference--code-boxx.com*/
+    #Dali {
+        width: 600px;
+        height: auto;
+        transition: transform ease-in-out 0.3s;
+    }
+    #Dali:hover { transform: scale(1.2); }
+
+    /* */
+
+    #quince {
+        width: 600px;
+        height: auto;
+        transition: transform ease-in-out 0.3s;
+    }
+    #quince:hover { transform: scale(1.2); }
+
+      /* */
+
+         #starry {
+        width: 600px;
+        height: auto;
+        transition: transform ease-in-out 0.3s;
+    }
+    #starry:hover { transform: scale(1.2); }
+
+    /* */
+
+    #wave {
+        width: 600px;
+        height: auto;
+        transition: transform ease-in-out 0.3s;
+    }
+    #wave:hover { transform: scale(1.2); }
+
+    /* */
+
+    #picaso {
+        width: 600px;
+        height: auto;
+        transition: transform ease-in-out 0.3s;
+    }
+    #picaso:hover { transform: scale(1.2); }
